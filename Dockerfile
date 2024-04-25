@@ -1,5 +1,5 @@
 # use a node base image
-FROM node:lts-slim
+FROM node:20.12.2-slim
 
 # Create app directory
 WORKDIR /usr/src/app
